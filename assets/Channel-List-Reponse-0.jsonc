@@ -1,0 +1,62 @@
+/**
+ * This file contains the response from a request to the `/youtube/v3/channels`
+ * endpoint for Rennie's YouTube channel.
+ *
+ * - To get the channel by channel name use the `forHandle` parameter.
+ * - To get the channel by channel ID use the `id` parameter.
+ */
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "G8Xj1ew4as7lkpuvVLMRwh4aV6k",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "g-uOq8X1x1Alem8hp3QwRDdz-w4",
+      "id": "UCuJZqLQSCTSFAaGJzbYzdDQ",
+      "snippet": {
+        "title": "renniesaurus",
+        "description": "Rennie is a Twitch partner & VTuber. She enjoys playing a large variety of games!\n\nFind Rennie:\nhttps://twitch.tv/renniesaurus\nhttps://www.tiktok.com/@renniesaurus_\nhttps://twitter.com/renniesaurus\nhttps://youtube.com/renniesaurus\nhttps://instagram.com/renniesaurus\nhttps://discord.gg/renniesaurus\n",
+        "customUrl": "@renniesaurus",
+        "publishedAt": "2016-11-23T04:11:43Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/MGGG4huN495Mh33LkDZC-jY3KVC1DLR8TOoxLGrUO9ddbY5U5jpSGUrUJWLpBpSEOFi6kQ1XvA=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/MGGG4huN495Mh33LkDZC-jY3KVC1DLR8TOoxLGrUO9ddbY5U5jpSGUrUJWLpBpSEOFi6kQ1XvA=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/MGGG4huN495Mh33LkDZC-jY3KVC1DLR8TOoxLGrUO9ddbY5U5jpSGUrUJWLpBpSEOFi6kQ1XvA=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "renniesaurus",
+          "description": "Rennie is a Twitch partner & VTuber. She enjoys playing a large variety of games!\n\nFind Rennie:\nhttps://twitch.tv/renniesaurus\nhttps://www.tiktok.com/@renniesaurus_\nhttps://twitter.com/renniesaurus\nhttps://youtube.com/renniesaurus\nhttps://instagram.com/renniesaurus\nhttps://discord.gg/renniesaurus\n"
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUuJZqLQSCTSFAaGJzbYzdDQ"
+        }
+      },
+      "statistics": {
+        "viewCount": "1287421",
+        "subscriberCount": "11100",
+        "hiddenSubscriberCount": false,
+        "videoCount": "330"
+      }
+    }
+  ]
+}
