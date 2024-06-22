@@ -1,0 +1,9 @@
+.github/
+assets/
+tmp/
+.air.toml
+**/*.env
+.gitignore
+Dockerfile
+Makefile
+docker-compose.yml
