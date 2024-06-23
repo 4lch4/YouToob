@@ -13,12 +13,14 @@ run:
 
 # Create API container
 docker-run:
-	@if docker compose up 2>/dev/null; then \
-		: ; \
-	else \
-		echo "Falling back to Docker Compose V1"; \
-		docker-compose up; \
-	fi
+	@docker run -d -p 8080:8080 --env-file .env --name youtoob 4lch4/youtoob
+# docker-run:
+# 	@if docker compose up 2>/dev/null; then \
+# 		: ; \
+# 	else \
+# 		echo "Falling back to Docker Compose V1"; \
+# 		docker-compose up; \
+# 	fi
 
 # Shutdown API container
 docker-down:
