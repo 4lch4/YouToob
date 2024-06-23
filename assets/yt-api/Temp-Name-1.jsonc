@@ -1,0 +1,46 @@
+{
+  "etag": "FjgQ-goHU47xX_WeIApIRdAbIZ8",
+  "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLmpXcGRheW1reUxV",
+  "kind": "youtube#playlistItem",
+  "snippet": {
+    "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+    "channelTitle": "Sneeziu",
+    "description": "Thank you so so much for checking out my channel!! 💜\nI'm live on twitch as well ▶ https://www.twitch.tv/sneeziu ◀\n\n▶ My social media ◀\nTiktok: https://www.tiktok.com/@sneeziu\nTwitter/X: https://twitter.com/sneeziu1\nDiscord: https://discord.gg/sneeziu\nThrone: https://throne.com/sneeziu\n\n▶ Support me ◀\nhttps://streamlabs.com/sneeziu/tip\nPlease make sure you take care of yourself first!!!\nI really appreciate the support! 💜\n(Donations are non-refundable)\n\n▶ Rules ◀\n💧 Be kind to each other\n💧 Respect me, the mods and fellow chatters\n💧 Keep conversations related to the stream\n💧 Follow YouTube TOS\n\n▶ Schedule ◀\n9AM CEST (4pm jst, 3am est, 12am pst) every Monday, Thursday, Friday, Saturday, Sunday\n\n#sneeziu #vtuber #warframe #wuwa #wutheringwaves  #vtuberen #slime",
+    "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+    "publishedAt": "2024-06-23T02:10:51Z",
+    "resourceId": {
+      "kind": "youtube#video",
+      "videoId": "jWpdaymkyLU"
+    },
+    "thumbnails": {
+      "default": {
+        "height": 90,
+        "url": "https://i.ytimg.com/vi/jWpdaymkyLU/default_live.jpg",
+        "width": 120
+      },
+      "high": {
+        "height": 360,
+        "url": "https://i.ytimg.com/vi/jWpdaymkyLU/hqdefault_live.jpg",
+        "width": 480
+      },
+      "maxres": {
+        "height": 720,
+        "url": "https://i.ytimg.com/vi/jWpdaymkyLU/maxresdefault_live.jpg",
+        "width": 1280
+      },
+      "medium": {
+        "height": 180,
+        "url": "https://i.ytimg.com/vi/jWpdaymkyLU/mqdefault_live.jpg",
+        "width": 320
+      },
+      "standard": {
+        "height": 480,
+        "url": "https://i.ytimg.com/vi/jWpdaymkyLU/sddefault_live.jpg",
+        "width": 640
+      }
+    },
+    "title": "【Warframe】RISE AND SLIME IT'S JADE TIME",
+    "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA",
+    "videoOwnerChannelTitle": "Sneeziu"
+  }
+}

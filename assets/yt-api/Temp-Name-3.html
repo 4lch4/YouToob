@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouToob Homepage</title>
+
+  <style>
+    pre {
+      border-left: solid 2px;
+      padding-left: 1em;
+      /*border-left: solid 2px #ccc;*/
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome to <a href="https://4lch4.com" target="_blank">4lch4</a>'s YouToob Website!</h1>
+
+  <ul>
+    <li>
+      The current endpoint is the <i>only one</i> where you'll get HTML back.
+      <ul>
+        <li>Yes, I'm aware of how basic this page is. I may change it later, but it works for now.</li>
+      </ul>
+    </li>
+
+    <li>All of the remaining endpoints will return JSON or raw text as expected.</li>
+
+    <li>
+      The URL used in all of the samples below are automatically updated to use the URL of the instance you access.
+      <ul>
+        <li>For example, if you access this page at <code>http://localhost:8080</code>, then the URL in the samples will start with <code>http://localhost:8080</code>.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <!--<p>
+    If you're seeing this page then you're likely curious about what this API/website can do.
+
+    <br>
+
+    <ul>
+      <li>The current endpoint is the <i>only one</i> where you'll get HTML back.</li>
+      <li>All of the remaining endpoints will return JSON or raw text as expected.</li>
+      <li>
+        The URL used in all of the samples below are automatically updated to use the URL of the instance you access.
+        <ul>
+          <li>For example, if you access this page at <code>http://localhost:8080</code>, then the URL in the samples will start with <code>http://localhost:8080</code>.</li>
+        </ul>
+      </li>
+    </ul>
+  </p>
+
+  <hr />
+
+  <h2>Endpoints</h2>
+
+  <p>
+    To get the actual data you're looking for, you'll want to use one of the following endpoints.
+  </p>-->
+
+  <h2>Endpoints</h2>
+
+  <ul>
+    <li><a href="#list-video-endpoints"><code>/:channelName</code></a></li>
+    <li><a href="#get-next-livestream"><code>/:channelName/live</code></a></li>
+    <li><a href="#get-latest-short"><code>/:channelName/short</code></a></li>
+    <li><a href="#get-latest-video"><code>/:channelName/video</code></a></li>
+    <li><a href="#get-latest-vod"><code>/:channelName/vod</code></a></li>
+  </ul>
+
+  <div>
+    <h3 id="list-video-endpoints">List Video Type Endpoints</h2>
+
+    <p>
+      This endpoint (<code>/:channelName</code>) returns a JSON object that shows the available endpoints for the given channel like so:
+    </p>
+
+    <!--
+      The following ugly span sections were generated using something like so:
+
+      ```bash
+      script -q -c 'http GET {{ .BaseURL }}/@{{ .ChannelName }}' output.txt
+      ansi-to-html < output.txt > output.html
+      ```
+    -->
+    <pre>
+$ http GET {{ .BaseURL }}/@{{ .ChannelName }}
+
+<span style="color:#00A">HTTP<span style="color:#FFF"><span style="background-color:#000"></span></span></span>/<span style="color:#00A">1.1<span style="color:#FFF"><span style="background-color:#000"></span></span></span> <span style="color:#00A">200<span style="color:#FFF"><span style="background-color:#000"></span></span></span> <span style="color:#0AA">OK<span style="color:#FFF"><span style="background-color:#000"></span></span></span>
+<span style="color:#0AA">Content-Length<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: 211
+<span style="color:#0AA">Content-Type<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: application/json; charset=utf-8
+<span style="color:#0AA">Date<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: Fri, 21 Jun 2024 16:38:57 GMT
+
+{<span style="color:#AAA"><span style="color:#FFF"><span style="background-color:#000"></span></span></span>
+<span style="color:#AAA">  <span style="color:#FFF"><span style="background-color:#000"></span></span></span><span style="color:#55F">"live"<span style="color:#FFF"><span style="background-color:#000"></span></span></span>:<span style="color:#AAA"> <span style="color:#FFF"><span style="background-color:#000"></span></span></span><span style="color:#A50">"http://localhost:8080/@{{ .ChannelName }}/live"<span style="color:#FFF"><span style="background-color:#000"></span></span></span>,<span style="color:#AAA"><span style="color:#FFF"><span style="background-color:#000"></span></span></span>
+<span style="color:#AAA">  <span style="color:#FFF"><span style="background-color:#000"></span></span></span><span style="color:#55F">"short"<span style="color:#FFF"><span style="background-color:#000"></span></span></span>:<span style="color:#AAA"> <span style="color:#FFF"><span style="background-color:#000"></span></span></span><span style="color:#A50">"http://localhost:8080/@{{ .ChannelName }}/short"<span style="color:#FFF"><span style="background-color:#000"></span></span></span>,<span style="color:#AAA"><span style="color:#FFF"><span style="background-color:#000"></span></span></span>
+<span style="color:#AAA">  <span style="color:#FFF"><span style="background-color:#000"></span></span></span><span style="color:#55F">"video"<span style="color:#FFF"><span style="background-color:#000"></span></span></span>:<span style="color:#AAA"> <span style="color:#FFF"><span style="background-color:#000"></span></span></span><span style="color:#A50">"http://localhost:8080/@{{ .ChannelName }}/video"<span style="color:#FFF"><span style="background-color:#000"></span></span></span>,<span style="color:#AAA"><span style="color:#FFF"><span style="background-color:#000"></span></span></span>
+<span style="color:#AAA">  <span style="color:#FFF"><span style="background-color:#000"></span></span></span><span style="color:#55F">"vod"<span style="color:#FFF"><span style="background-color:#000"></span></span></span>:<span style="color:#AAA"> <span style="color:#FFF"><span style="background-color:#000"></span></span></span><span style="color:#A50">"http://localhost:8080/@{{ .ChannelName }}/vod"<span style="color:#FFF"><span style="background-color:#000"></span></span></span><span style="color:#AAA"><span style="color:#FFF"><span style="background-color:#000"></span></span></span>
+}<span style="color:#AAA"><span style="color:#FFF"><span style="background-color:#000"></span></span></span>
+    </pre>
+  </div>
+
+  <div>
+    <h3 id="get-next-livestream">Get Next Livestream</h2>
+
+    <p>
+      This endpoint (<code>/:channelName/live</code>) returns the next scheduled livestream for the given channel like so:
+    </p>
+
+    <pre>
+$ http GET {{ .BaseURL }}/@{{ .ChannelName }}/live
+
+<span style="color:#00A">HTTP<span style="color:#FFF"><span style="background-color:#000"></span></span></span>/<span style="color:#00A">1.1<span style="color:#FFF"><span style="background-color:#000"></span></span></span> <span style="color:#00A">200<span style="color:#FFF"><span style="background-color:#000"></span></span></span> <span style="color:#0AA">OK<span style="color:#FFF"><span style="background-color:#000"></span></span></span>
+<span style="color:#0AA">Content-Length<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: 75
+<span style="color:#0AA">Content-Type<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: text/plain; charset=utf-8
+<span style="color:#0AA">Date<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: Fri, 21 Jun 2024 16:38:57 GMT
+
+【Warframe + Wuwa】SHE WU ON MY WA TILL I- - https://youtu.be/PTQldraa28
+    </pre>
+  </div>
+
+  <div>
+    <h3 id="get-latest-short">Get Latest Short</h2>
+
+    <p>
+      This endpoint (<code>/:channelName/short</code>) returns the latest short video for the given channel like so:
+    </p>
+
+    <pre>
+$ http GET {{ .BaseURL }}/@{{ .ChannelName }}/short
+
+<span style="color:#00A">HTTP<span style="color:#FFF"><span style="background-color:#000"></span></span></span>/<span style="color:#00A">1.1<span style="color:#FFF"><span style="background-color:#000"></span></span></span> <span style="color:#00A">200<span style="color:#FFF"><span style="background-color:#000"></span></span></span> <span style="color:#0AA">OK<span style="color:#FFF"><span style="background-color:#000"></span></span></span>
+<span style="color:#0AA">Content-Length<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: 72
+<span style="color:#0AA">Content-Type<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: text/plain; charset=utf-8
+<span style="color:#0AA">Date<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: Fri, 21 Jun 2024 17:24:22 GMT
+
+She Did WHAT To Her Twitch Chat?! #shorts - https://youtu.be/gge-pBrHBzo
+    </pre>
+  </div>
+
+  <div>
+    <h3 id="get-latest-video">Get Latest Video</h2>
+
+    <p>
+      This endpoint (<code>/:channelName/video</code>) returns the latest video for the given channel like so:
+    </p>
+
+    <pre>
+$ http GET {{ .BaseURL }}/@{{ .ChannelName }}/video
+
+<span style="color:#00A">HTTP<span style="color:#FFF"><span style="background-color:#000"></span></span></span>/<span style="color:#00A">1.1<span style="color:#FFF"><span style="background-color:#000"></span></span></span> <span style="color:#00A">200<span style="color:#FFF"><span style="background-color:#000"></span></span></span> <span style="color:#0AA">OK<span style="color:#FFF"><span style="background-color:#000"></span></span></span>
+<span style="color:#0AA">Content-Length<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: 57
+<span style="color:#0AA">Content-Type<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: text/plain; charset=utf-8
+<span style="color:#0AA">Date<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: Fri, 21 Jun 2024 17:24:58 GMT
+
+SNEEZIU SPICY MODEL UPDATE - https://youtu.be/FVOcxwTKnY8
+    </pre>
+  </div>
+
+  <div>
+    <h3 id="get-latest-vod">Get Latest VOD</h2>
+
+    <p>
+      This endpoint (<code>/:channelName/vod</code>) returns the latest VOD for the given channel like so:
+    </p>
+
+    <pre>
+$ http GET {{ .BaseURL }}/@{{ .ChannelName }}/vod
+
+<span style="color:#00A">HTTP<span style="color:#FFF"><span style="background-color:#000"></span></span></span>/<span style="color:#00A">1.1<span style="color:#FFF"><span style="background-color:#000"></span></span></span> <span style="color:#00A">200<span style="color:#FFF"><span style="background-color:#000"></span></span></span> <span style="color:#0AA">OK<span style="color:#FFF"><span style="background-color:#000"></span></span></span>
+<span style="color:#0AA">Content-Length<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: 80
+<span style="color:#0AA">Content-Type<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: text/plain; charset=utf-8
+<span style="color:#0AA">Date<span style="color:#FFF"><span style="background-color:#000"></span></span></span>: Fri, 21 Jun 2024 17:25:05 GMT
+
+【Warframe + Wuwa】MY WARFRAME WAIFU GOT BUFFED - https://youtu.be/VIonmEbPZJY
+    </pre>
+  </div>
+
+</body>
+
+</html>

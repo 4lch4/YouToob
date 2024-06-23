@@ -1,0 +1,2313 @@
+/*
+All of the contents in this file come from me sending a request to the YouTube Data API v3 to get
+the contents of the uploads playlist of Sneeziu's channel. The request was made using roughly the
+following URL:
+
+https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&playlistId=UULhT07PGsgYJyGImWa17yFA&maxResults=50
+*/
+
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "NS9eFbymed-gpFFUPYrTS5E1j0g",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "jfgNX7VpzHVj8jkggobobqZ3wRw",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLmpXcGRheW1reUxV",
+      "snippet": {
+        "publishedAt": "2024-06-23T02:10:51Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "【Warframe】RISE AND SLIME IT'S JADE TIME",
+        "description": "Thank you so so much for checking out my channel!! 💜\nI'm live on twitch as well ▶ https://www.twitch.tv/sneeziu ◀\n\n▶ My social media ◀\nTiktok: https://www.tiktok.com/@sneeziu\nTwitter/X: https://twitter.com/sneeziu1\nDiscord: https://discord.gg/sneeziu\nThrone: https://throne.com/sneeziu\n\n▶ Support me ◀\nhttps://streamlabs.com/sneeziu/tip\nPlease make sure you take care of yourself first!!!\nI really appreciate the support! 💜\n(Donations are non-refundable)\n\n▶ Rules ◀\n💧 Be kind to each other\n💧 Respect me, the mods and fellow chatters\n💧 Keep conversations related to the stream\n💧 Follow YouTube TOS\n\n▶ Schedule ◀\n9AM CEST (4pm jst, 3am est, 12am pst) every Monday, Thursday, Friday, Saturday, Sunday\n\n#sneeziu #vtuber #warframe #wuwa #wutheringwaves  #vtuberen #slime",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jWpdaymkyLU/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jWpdaymkyLU/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jWpdaymkyLU/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jWpdaymkyLU/sddefault_live.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jWpdaymkyLU/maxresdefault_live.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "jWpdaymkyLU"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "jWpdaymkyLU",
+        "videoPublishedAt": "2024-06-23T02:10:51Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "-oH9qIGfTe_0zaPNlGnJFx7Rygs",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLlBUUWxkcmFhMjhv",
+      "snippet": {
+        "publishedAt": "2024-06-22T18:25:14Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "【Wuthering Waves】SHE WU ON MY WA TILL I-",
+        "description": "Thank you so so much for checking out my channel!! 💜\nI'm live on twitch as well ▶ https://www.twitch.tv/sneeziu ◀\n\n▶ My social media ◀\nTiktok: https://www.tiktok.com/@sneeziu\nTwitter/X: https://twitter.com/sneeziu1\nDiscord: https://discord.gg/sneeziu\nThrone: https://throne.com/sneeziu\n\n▶ Support me ◀\nhttps://streamlabs.com/sneeziu/tip\nPlease make sure you take care of yourself first!!!\nI really appreciate the support! 💜\n(Donations are non-refundable)\n\n▶ Rules ◀\n💧 Be kind to each other\n💧 Respect me, the mods and fellow chatters\n💧 Keep conversations related to the stream\n💧 Follow YouTube TOS\n\n▶ Schedule ◀\n9AM CEST (4pm jst, 3am est, 12am pst) every Monday, Thursday, Friday, Saturday, Sunday\n\n#sneeziu #vtuber #warframe #wuwa #wutheringwaves  #vtuberen #slime",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PTQldraa28o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PTQldraa28o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PTQldraa28o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/PTQldraa28o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/PTQldraa28o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "PTQldraa28o"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "PTQldraa28o",
+        "videoPublishedAt": "2024-06-22T18:25:14Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "K2-Xaq6PWXf4ybA74Pa08EgyoQg",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLkZ4c0RmWC1hb2Ew",
+      "snippet": {
+        "publishedAt": "2024-06-22T03:47:46Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "【Minecraft】YAPPER SLIME YEARS FOR THE MINES ⛏️",
+        "description": "Thank you so so much for checking out my channel!! 💜\nI'm live on twitch as well ▶ https://www.twitch.tv/sneeziu ◀\n\n▶ My social media ◀\nTiktok: https://www.tiktok.com/@sneeziu\nTwitter/X: https://twitter.com/sneeziu1\nDiscord: https://discord.gg/sneeziu\nThrone: https://throne.com/sneeziu\n\n▶ Support me ◀\nhttps://streamlabs.com/sneeziu/tip\nPlease make sure you take care of yourself first!!!\nI really appreciate the support! 💜\n(Donations are non-refundable)\n\n▶ Rules ◀\n💧 Be kind to each other\n💧 Respect me, the mods and fellow chatters\n💧 Keep conversations related to the stream\n💧 Follow YouTube TOS\n\n▶ Schedule ◀\n9AM CEST (4pm jst, 3am est, 12am pst) every Monday, Thursday, Friday, Saturday, Sunday\n\n#sneeziu #vtuber #minecraft  #vtuberen #slime",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FxsDfX-aoa0/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FxsDfX-aoa0/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FxsDfX-aoa0/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FxsDfX-aoa0/sddefault_live.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FxsDfX-aoa0/maxresdefault_live.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "FxsDfX-aoa0"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "FxsDfX-aoa0",
+        "videoPublishedAt": "2024-06-22T03:47:46Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "H8mnsONwyLpxC9cHi3PKz_-MMLE",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLlZJb25tRWJQWkpZ",
+      "snippet": {
+        "publishedAt": "2024-06-21T12:50:30Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "【Warframe + Wuwa】MY WARFRAME WAIFU GOT BUFFED",
+        "description": "Thank you so so much for checking out my channel!! 💜\nI'm live on twitch as well ▶ https://www.twitch.tv/sneeziu ◀\n\n▶ My social media ◀\nTiktok: https://www.tiktok.com/@sneeziu\nTwitter/X: https://twitter.com/sneeziu1\nDiscord: https://discord.gg/sneeziu\nThrone: https://throne.com/sneeziu\n\n▶ Support me ◀\nhttps://streamlabs.com/sneeziu/tip\nPlease make sure you take care of yourself first!!!\nI really appreciate the support! 💜\n(Donations are non-refundable)\n\n▶ Rules ◀\n💧 Be kind to each other\n💧 Respect me, the mods and fellow chatters\n💧 Keep conversations related to the stream\n💧 Follow YouTube TOS\n\n▶ Schedule ◀\n9AM CEST (4pm jst, 3am est, 12am pst) every Monday, Thursday, Friday, Saturday, Sunday\n\n#sneeziu #vtuber #warframe #wuwa #wutheringwaves  #vtuberen #slime",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VIonmEbPZJY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VIonmEbPZJY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VIonmEbPZJY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VIonmEbPZJY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VIonmEbPZJY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "VIonmEbPZJY"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "VIonmEbPZJY",
+        "videoPublishedAt": "2024-06-21T12:50:30Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "sIiQafuBpAm3b8qzmmzuQM4Qpno",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLjY3VjFyZ1V5MDJv",
+      "snippet": {
+        "publishedAt": "2024-06-20T15:02:22Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "【Warframe】JADE SHADOWS! MOTHER IS MOTHERING",
+        "description": "Thank you so so much for checking out my channel!! 💜\nI'm live on twitch as well ▶ https://www.twitch.tv/sneeziu ◀\n\n▶ My social media ◀\nTiktok: https://www.tiktok.com/@sneeziu\nTwitter/X: https://twitter.com/sneeziu1\nDiscord: https://discord.gg/sneeziu\nThrone: https://throne.com/sneeziu\n\n▶ Support me ◀\nhttps://streamlabs.com/sneeziu/tip\nPlease make sure you take care of yourself first!!!\nI really appreciate the support! 💜\n(Donations are non-refundable)\n\n▶ Rules ◀\n💧 Be kind to each other\n💧 Respect me, the mods and fellow chatters\n💧 Keep conversations related to the stream\n💧 Follow YouTube TOS\n\n▶ Schedule ◀\n9AM CEST (4pm jst, 3am est, 12am pst) every Monday, Thursday, Friday, Saturday, Sunday\n\n#sneeziu #vtuber #warframe #wuwa #wutheringwaves  #vtuberen #slime",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/67V1rgUy02o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/67V1rgUy02o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/67V1rgUy02o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/67V1rgUy02o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/67V1rgUy02o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "67V1rgUy02o"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "67V1rgUy02o",
+        "videoPublishedAt": "2024-06-20T15:02:22Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "yvOEe1Z-sSeXoFNt3b20u36S5BQ",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLmdoaWs5Q1RxWDVV",
+      "snippet": {
+        "publishedAt": "2024-06-17T12:23:56Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "【Warframe】MOMMY EMBER HEIRLOOM COME HOME PLEASE",
+        "description": "Thank you so so much for checking out my channel!! 💜\nI'm live on twitch as well ▶ https://www.twitch.tv/sneeziu ◀\n\n▶ My social media ◀\nTiktok: https://www.tiktok.com/@sneeziu\nTwitter/X: https://twitter.com/sneeziu1\nDiscord: https://discord.gg/sneeziu\nThrone: https://throne.com/sneeziu\n\n▶ Support me ◀\nhttps://streamlabs.com/sneeziu/tip\nPlease make sure you take care of yourself first!!!\nI really appreciate the support! 💜\n(Donations are non-refundable)\n\n▶ Rules ◀\n💧 Be kind to each other\n💧 Respect me, the mods and fellow chatters\n💧 Keep conversations related to the stream\n💧 Follow YouTube TOS\n\n▶ Schedule ◀\n9AM CEST (4pm jst, 3am est, 12am pst) every Monday, Thursday, Friday, Saturday, Sunday\n\n#sneeziu #vtuber #warframe  #vtuberen #slime",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ghik9CTqX5U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ghik9CTqX5U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ghik9CTqX5U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ghik9CTqX5U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ghik9CTqX5U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ghik9CTqX5U"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "ghik9CTqX5U",
+        "videoPublishedAt": "2024-06-17T12:23:56Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "IR6rA0jBlYOAia7rMt2i9fnO4Sc",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLmdnZS1wQnJIQnpv",
+      "snippet": {
+        "publishedAt": "2024-06-15T20:00:14Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "She Did WHAT To Her Twitch Chat?! #shorts",
+        "description": "She Did WHAT To Her Twitch Chat?! #shorts \n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #anime #funny",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gge-pBrHBzo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gge-pBrHBzo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gge-pBrHBzo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gge-pBrHBzo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gge-pBrHBzo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "gge-pBrHBzo"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "gge-pBrHBzo",
+        "videoPublishedAt": "2024-06-15T20:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "fAWWA6EK33Q2xXsdVSQMOV3Lw5E",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLlpsMnhiMmZhLTVJ",
+      "snippet": {
+        "publishedAt": "2024-06-15T12:43:59Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "【Warframe + Wuwa】YAPPER SLIME YAPPER TIME",
+        "description": "Thank you so so much for checking out my channel!! 💜\nI'm live on twitch as well ▶ https://www.twitch.tv/sneeziu ◀\n\n▶ My social media ◀\nTiktok: https://www.tiktok.com/@sneeziu\nTwitter/X: https://twitter.com/sneeziu1\nDiscord: https://discord.gg/sneeziu\nThrone: https://throne.com/sneeziu\n\n▶ Support me ◀\nhttps://streamlabs.com/sneeziu/tip\nPlease make sure you take care of yourself first!!!\nI really appreciate the support! 💜\n(Donations are non-refundable)\n\n▶ Rules ◀\n💧 Be kind to each other\n💧 Respect me, the mods and fellow chatters\n💧 Keep conversations related to the stream\n💧 Follow YouTube TOS\n\n▶ Schedule ◀\n9AM CEST (4pm jst, 3am est, 12am pst) every Monday, Thursday, Friday, Saturday, Sunday\n\n#sneeziu #vtuber #warframe #wuwa #wutheringwaves  #vtuberen #slime",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Zl2xb2fa-5I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Zl2xb2fa-5I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Zl2xb2fa-5I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Zl2xb2fa-5I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Zl2xb2fa-5I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Zl2xb2fa-5I"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "Zl2xb2fa-5I",
+        "videoPublishedAt": "2024-06-15T12:43:59Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hoRPnC3jSN_ygsxsFZ1PvAuNUcw",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLlJXbDhXV2V0cjNJ",
+      "snippet": {
+        "publishedAt": "2024-06-14T20:00:09Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "Exposing VTubers BIGGEST Secrets!!! #shorts",
+        "description": "Exposing VTubers BIGGEST Secrets!!! #shorts\n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #anime #funny",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RWl8WWetr3I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RWl8WWetr3I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RWl8WWetr3I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RWl8WWetr3I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RWl8WWetr3I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "RWl8WWetr3I"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "RWl8WWetr3I",
+        "videoPublishedAt": "2024-06-14T20:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8wGoyM8xiaoAmw3mjvnXOW8Hpuw",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLjlPeUtRTXdPSEJV",
+      "snippet": {
+        "publishedAt": "2024-06-14T13:01:03Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "【Warframe】MAN I LOVE FORMA",
+        "description": "Thank you so so much for checking out my channel!! 💜\nI'm live on twitch as well ▶ https://www.twitch.tv/sneeziu ◀\n\n▶ My social media ◀\nTiktok: https://www.tiktok.com/@sneeziu\nTwitter/X: https://twitter.com/sneeziu1\nDiscord: https://discord.gg/sneeziu\nThrone: https://throne.com/sneeziu\n\n▶ Thumbnail art ◀\nhttps://twitter.com/Bunbuku43\n\n▶ Support me ◀\nhttps://streamlabs.com/sneeziu/tip\nPlease make sure you take care of yourself first!!!\nI really appreciate the support! 💜\n(Donations are non-refundable)\n\n▶ Rules ◀\n💧 Be kind to each other\n💧 Respect me, the mods and fellow chatters\n💧 Keep conversations related to the stream\n💧 Follow YouTube TOS\n\n▶ Schedule ◀\n9AM CEST (4pm jst, 3am est, 12am pst) every Monday, Thursday, Friday, Saturday, Sunday\n\n#sneeziu #vtuber #warframe #wuwa #wutheringwaves  #vtuberen #slime",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9OyKQMwOHBU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9OyKQMwOHBU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9OyKQMwOHBU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9OyKQMwOHBU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9OyKQMwOHBU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "9OyKQMwOHBU"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "9OyKQMwOHBU",
+        "videoPublishedAt": "2024-06-14T13:01:03Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ntlPmOawi1OF4aiPNix-xPyaPQ4",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLjR4VFVrc0Y3N0lj",
+      "snippet": {
+        "publishedAt": "2024-06-13T20:00:03Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "Showing New Viewers My Toggles!! #shorts",
+        "description": "Showing New Viewers My Toggles!! #shorts \n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #anime #funny",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4xTUksF77Ic/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4xTUksF77Ic/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4xTUksF77Ic/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4xTUksF77Ic/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4xTUksF77Ic/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "4xTUksF77Ic"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "4xTUksF77Ic",
+        "videoPublishedAt": "2024-06-13T20:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "G3RjgPcOXrSmHFYPJheT5XGWwCo",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLmZSRzB4MHJXZzJz",
+      "snippet": {
+        "publishedAt": "2024-06-12T20:00:24Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "This VTuber is DOWN ASTRONOMICALLY for hades.. #shorts",
+        "description": "This VTuber is DOWN ASTRONOMICALLY for hades.. #shorts \n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #anime #funny #hades",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fRG0x0rWg2s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fRG0x0rWg2s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fRG0x0rWg2s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/fRG0x0rWg2s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/fRG0x0rWg2s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "fRG0x0rWg2s"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "fRG0x0rWg2s",
+        "videoPublishedAt": "2024-06-12T20:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "swhEMspiQm7Cm6iqqkM88djwqME",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLjFhR080NWRGR1k0",
+      "snippet": {
+        "publishedAt": "2024-06-11T20:00:00Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "MOTHER?! sorry... MOTHER?! sorry... #shorts",
+        "description": "MOTHER?! sorry... MOTHER?! sorry... #shorts\n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #anime #funny #hades",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1aGO45dFGY4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1aGO45dFGY4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1aGO45dFGY4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1aGO45dFGY4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/1aGO45dFGY4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "1aGO45dFGY4"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "1aGO45dFGY4",
+        "videoPublishedAt": "2024-06-11T20:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "TXeNW5fhGUr2FqBKX9Ycw_deGRM",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLlRyQnIxTHpKNDFF",
+      "snippet": {
+        "publishedAt": "2024-06-10T20:00:08Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "Warframe ALLOWED This?!?! #shorts",
+        "description": "Warframe ALLOWED This?!?! #shorts\n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #anime #funny #warframe",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TrBr1LzJ41E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TrBr1LzJ41E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TrBr1LzJ41E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/TrBr1LzJ41E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/TrBr1LzJ41E/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "TrBr1LzJ41E"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "TrBr1LzJ41E",
+        "videoPublishedAt": "2024-06-10T20:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "IWRbBJ7AfmB0kWEfRBawl4OBSoI",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLlM2OHdQMTdqanFn",
+      "snippet": {
+        "publishedAt": "2024-06-09T20:00:13Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "WHY DID HE SAY THIS?!?! 😭#shorts",
+        "description": "WHY DID HE SAY THIS?!?! 😭#shorts \n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #anime #funny #warframe",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/S68wP17jjqg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/S68wP17jjqg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/S68wP17jjqg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/S68wP17jjqg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/S68wP17jjqg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "S68wP17jjqg"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "S68wP17jjqg",
+        "videoPublishedAt": "2024-06-09T20:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "UNXYqqF5v-jYNHizuabmSDXkiRU",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLmlUSktZbUZITlBF",
+      "snippet": {
+        "publishedAt": "2024-06-08T20:00:12Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "VTubers Only Want One Thing and Its Disgusting... #shorts",
+        "description": "VTubers Only Want One Thing and Its Disgusting... #shorts\n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #anime #funny #apexlegends",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iTJKYmFHNPE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iTJKYmFHNPE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iTJKYmFHNPE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iTJKYmFHNPE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iTJKYmFHNPE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 15,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "iTJKYmFHNPE"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "iTJKYmFHNPE",
+        "videoPublishedAt": "2024-06-08T20:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "cZZw8xtUBJFdBiHpWx3KR7vqrNU",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLnQ4Tkw4NF8zOU5V",
+      "snippet": {
+        "publishedAt": "2024-06-07T20:00:18Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "How Long Can You Last..... in Apex Legends? #shorts",
+        "description": "How Long Can You Last..... in Apex Legends! #shorts\n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #anime #funny #apexlegends",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/t8NL84_39NU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/t8NL84_39NU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/t8NL84_39NU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/t8NL84_39NU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/t8NL84_39NU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 16,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "t8NL84_39NU"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "t8NL84_39NU",
+        "videoPublishedAt": "2024-06-07T20:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "_Uh0WvttRFfcVDnqO-T6KYRK14k",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLngtSE41V1hnNFhn",
+      "snippet": {
+        "publishedAt": "2024-06-06T21:00:43Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "What Those Fingers Do?! 🤨 #shorts",
+        "description": "What Those Fingers Do?! 🤨 #shorts\n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #anime #funny",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x-HN5WXg4Xg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x-HN5WXg4Xg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x-HN5WXg4Xg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/x-HN5WXg4Xg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/x-HN5WXg4Xg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 17,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "x-HN5WXg4Xg"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "x-HN5WXg4Xg",
+        "videoPublishedAt": "2024-06-06T21:00:43Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "I496cRBr5i_tgocBwiVOSxd03RM",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLmRFNy11aERIUV8w",
+      "snippet": {
+        "publishedAt": "2024-05-03T18:00:20Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "TORBS COOM #shorts",
+        "description": "He coomed all over #shorts \n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dE7-uhDHQ_0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dE7-uhDHQ_0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dE7-uhDHQ_0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dE7-uhDHQ_0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dE7-uhDHQ_0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 18,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "dE7-uhDHQ_0"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "dE7-uhDHQ_0",
+        "videoPublishedAt": "2024-05-03T18:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "0pg04qf_VD4bV6vnlmdZJoexmPM",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLjNIbV94dnk5YmZ3",
+      "snippet": {
+        "publishedAt": "2024-05-02T18:00:03Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "INTO ROBOTS? #shorts",
+        "description": "Robot lover fr fr\n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #gaming #livestream #viral",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3Hm_xvy9bfw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3Hm_xvy9bfw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3Hm_xvy9bfw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3Hm_xvy9bfw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3Hm_xvy9bfw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 19,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "3Hm_xvy9bfw"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "3Hm_xvy9bfw",
+        "videoPublishedAt": "2024-05-02T18:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "TGpVKe39uOdDzWCax_nEgPwGgB0",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLnEyZFVsa0xESkxn",
+      "snippet": {
+        "publishedAt": "2024-05-01T20:00:15Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "THE PERFECT WOMAN #shorts",
+        "description": "My peak form tbh\n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #gaming #livestream #viral",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/q2dUlkLDJLg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/q2dUlkLDJLg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/q2dUlkLDJLg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/q2dUlkLDJLg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/q2dUlkLDJLg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 20,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "q2dUlkLDJLg"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "q2dUlkLDJLg",
+        "videoPublishedAt": "2024-05-01T20:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "SILhkaNZNFldNfnPcUqUy_UxdLc",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLnNCV3E0cF93dUpZ",
+      "snippet": {
+        "publishedAt": "2024-04-29T20:00:19Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "THAT PEACHUSSY.. #shorts",
+        "description": "Would..\n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #gaming #livestream #viral",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sBWq4p_wuJY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sBWq4p_wuJY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sBWq4p_wuJY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sBWq4p_wuJY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sBWq4p_wuJY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 21,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "sBWq4p_wuJY"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "sBWq4p_wuJY",
+        "videoPublishedAt": "2024-04-29T20:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "qwIHuYUs1w-52Ejt5o-I5WQUKzg",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLnV2MWtWZzFQbncw",
+      "snippet": {
+        "publishedAt": "2024-04-28T20:00:26Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "ADHD STRUGGLES #shorts",
+        "description": "If on schedule = no longer wanna do it\n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #gaming #livestream #viral",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uv1kVg1Pnw0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uv1kVg1Pnw0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uv1kVg1Pnw0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/uv1kVg1Pnw0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/uv1kVg1Pnw0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 22,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "uv1kVg1Pnw0"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "uv1kVg1Pnw0",
+        "videoPublishedAt": "2024-04-28T20:00:26Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "LVwD5QoaBquVWrA_BriELgVI_GM",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLmtBZzZMVWViODE0",
+      "snippet": {
+        "publishedAt": "2024-04-27T20:00:18Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "THIS VTUBER WANTS TO BE DEGRADED #shorts",
+        "description": "Why does every vtuber want to be degraded..\n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #gaming #livestream #viral",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kAg6LUeb814/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kAg6LUeb814/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kAg6LUeb814/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/kAg6LUeb814/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/kAg6LUeb814/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 23,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "kAg6LUeb814"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "kAg6LUeb814",
+        "videoPublishedAt": "2024-04-27T20:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "e6EyKzwHWR3M-ojqXU_W7FY5XFk",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLlptRmtIeXJ6aXlZ",
+      "snippet": {
+        "publishedAt": "2024-04-23T18:00:24Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "AVOCADO TASTES LIKE CLEAN D- #shorts",
+        "description": "What do you think avocado tastes like?? #shorts \n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZmFkHyrziyY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZmFkHyrziyY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZmFkHyrziyY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ZmFkHyrziyY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ZmFkHyrziyY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 24,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ZmFkHyrziyY"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "ZmFkHyrziyY",
+        "videoPublishedAt": "2024-04-23T18:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ULOoI57PsYVe7HLrozSGsireRT4",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLkZWT2N4d1RLblk4",
+      "snippet": {
+        "publishedAt": "2024-03-30T23:30:02Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "SNEEZIU SPICY MODEL UPDATE",
+        "description": "THANK YOU SO MUCH FOR CHECKING OUT MY CHANNEL!! If you could like this video I would really appreciate it\n\nBest collab that ever happened online\n\nWatch unhinged slime live on ➡️➡️➡️ https://twitch.tv/sneeziu\n\nCheck out my twitter for live notifications as well!\nhttps://twitter.com/sneeziu1\n\nPlease check out my editor, they are awesome!!\nhttps://twitter.com/BrainiEpic\n\n#vtuber\n#sneeziu\n#slime",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FVOcxwTKnY8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FVOcxwTKnY8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FVOcxwTKnY8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FVOcxwTKnY8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FVOcxwTKnY8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 25,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "FVOcxwTKnY8"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "FVOcxwTKnY8",
+        "videoPublishedAt": "2024-03-30T23:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8FSrgz3GVTpDp7h0dH7WJhra8QI",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLl9EQTZZZnczbmZB",
+      "snippet": {
+        "publishedAt": "2024-03-23T23:30:06Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "SLIME CRINGING AT HERSELF",
+        "description": "THANK YOU SO MUCH FOR CHECKING OUT MY CHANNEL!! If you could like this video I would really appreciate it\n\nWhy is she licking lead paint though\n\nWatch unhinged slime live on ➡️➡️➡️ https://twitch.tv/sneeziu\n\nCheck out my twitter for live notifications as well!\nhttps://twitter.com/sneeziu1\n\nPlease check out my editor, they are awesome!!\nhttps://twitter.com/BrainiEpic\n\n#vtuber\n#sneeziu\n#slime",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_DA6Yfw3nfA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_DA6Yfw3nfA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_DA6Yfw3nfA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_DA6Yfw3nfA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_DA6Yfw3nfA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 26,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "_DA6Yfw3nfA"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "_DA6Yfw3nfA",
+        "videoPublishedAt": "2024-03-23T23:30:06Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "FmjHUiZjC5mdbsqZfb_KzYXGots",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLmYydFNKZHNXQ1lv",
+      "snippet": {
+        "publishedAt": "2024-03-16T23:30:08Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "SLIME DEGENERACY AT IT'S FINEST",
+        "description": "THANK YOU SO MUCH FOR CHECKING OUT MY CHANNEL!! If you could like this video I would really appreciate it\n\nWhy is she licking lead paint though\n\nWatch unhinged slime live on ➡️➡️➡️ https://twitch.tv/sneeziu\n\nCheck out my twitter for live notifications as well!\nhttps://twitter.com/sneeziu1\n\nPlease check out my editor, they are awesome!!\nhttps://twitter.com/BrainiEpic\n\n#vtuber\n#sneeziu\n#slime",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/f2tSJdsWCYo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/f2tSJdsWCYo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/f2tSJdsWCYo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/f2tSJdsWCYo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/f2tSJdsWCYo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 27,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "f2tSJdsWCYo"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "f2tSJdsWCYo",
+        "videoPublishedAt": "2024-03-16T23:30:08Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Tp3IeuHw7ja_prWkuOvbljIzzdY",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLkhIcUdOVDZuQ2FZ",
+      "snippet": {
+        "publishedAt": "2024-03-14T19:00:07Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "She is measuring her WHAT?! #shorts",
+        "description": "She is measuring her.. what now??? #shorts \n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HHqGNT6nCaY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HHqGNT6nCaY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HHqGNT6nCaY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HHqGNT6nCaY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HHqGNT6nCaY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 28,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "HHqGNT6nCaY"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "HHqGNT6nCaY",
+        "videoPublishedAt": "2024-03-14T19:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "5dQCEBL9YkK53iikGSKGdEbqH_M",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLndST0ZxdldPX2g0",
+      "snippet": {
+        "publishedAt": "2024-03-13T23:30:09Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "SLIME PUSHES YOU DOWN THE STAIRS ASMR",
+        "description": "THANK YOU SO MUCH FOR CHECKING OUT MY CHANNEL!! If you could like this video I would really appreciate it\n\nAre these actually fun to watch? Weekly thing? Let me know!!\n\nWatch unhinged slime live on ➡️➡️➡️ https://twitch.tv/sneeziu\n\nCheck out my twitter for live notifications as well!\nhttps://twitter.com/sneeziu1\n\nPlease check out my editor, they are awesome!!\nhttps://twitter.com/pooblas\n\n#vtuber\n#sneeziu\n#asmr",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wROFqvWO_h4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wROFqvWO_h4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wROFqvWO_h4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wROFqvWO_h4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wROFqvWO_h4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 29,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "wROFqvWO_h4"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "wROFqvWO_h4",
+        "videoPublishedAt": "2024-03-13T23:30:09Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "s8CFSFHEzJ1W1R1aVmKG-Ota2M0",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLmtEdk5EdmUzWnpJ",
+      "snippet": {
+        "publishedAt": "2024-03-12T19:00:31Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "How LEWD is too LEWD??? #shorts",
+        "description": "How LEWD is too LEWD??? #shorts \n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kDvNDve3ZzI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kDvNDve3ZzI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kDvNDve3ZzI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/kDvNDve3ZzI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/kDvNDve3ZzI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 30,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "kDvNDve3ZzI"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "kDvNDve3ZzI",
+        "videoPublishedAt": "2024-03-12T19:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "y4iCSgAM42YKJc8ADakRSBC5uwQ",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLmlCUXBlNUt6cnAw",
+      "snippet": {
+        "publishedAt": "2024-03-10T19:00:16Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "He thought I was talking about WHAT?! #shorts",
+        "description": "He thought I was talking about WHAT?! #shorts \n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iBQpe5Kzrp0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iBQpe5Kzrp0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iBQpe5Kzrp0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iBQpe5Kzrp0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iBQpe5Kzrp0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 31,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "iBQpe5Kzrp0"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "iBQpe5Kzrp0",
+        "videoPublishedAt": "2024-03-10T19:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "4cF6EcWm3xV6pvN9FxcocgpqiTg",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLjdxMHFUMXhWWEdr",
+      "snippet": {
+        "publishedAt": "2024-03-09T23:30:02Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "THIS SLIME IS UNHINGED",
+        "description": "THANK YOU SO MUCH FOR CHECKING OUT MY CHANNEL!! If you could like this video I would really appreciate it\n\nWhy is she licking lead paint though\n\nWatch unhinged slime live on ➡️➡️➡️ https://twitch.tv/sneeziu\n\nCheck out my twitter for live notifications as well!\nhttps://twitter.com/sneeziu1\n\nPlease check out my editor, they are awesome!!\nhttps://twitter.com/BrainiEpic\n\n#vtuber\n#sneeziu\n#asmr",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7q0qT1xVXGk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7q0qT1xVXGk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7q0qT1xVXGk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7q0qT1xVXGk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7q0qT1xVXGk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 32,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "7q0qT1xVXGk"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "7q0qT1xVXGk",
+        "videoPublishedAt": "2024-03-09T23:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "TwvsViK7iVsdPCuzZ30zVNDsk5I",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLm5pX2VZZ1lVRmNZ",
+      "snippet": {
+        "publishedAt": "2024-03-08T19:00:23Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "NEVER TOO BIG #shorts",
+        "description": "She would do what?! \n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ni_eYgYUFcY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ni_eYgYUFcY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ni_eYgYUFcY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ni_eYgYUFcY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ni_eYgYUFcY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 33,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ni_eYgYUFcY"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "ni_eYgYUFcY",
+        "videoPublishedAt": "2024-03-08T19:00:23Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "CveWmDK1rb0qFXG3U-hrpU2cyJk",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLkdPT2VhUFBnQzZn",
+      "snippet": {
+        "publishedAt": "2024-03-06T23:30:06Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "VALORANT GIRLFRIEND ASMR",
+        "description": "THANK YOU SO MUCH FOR CHECKING OUT MY CHANNEL!! If you could like this video I would really appreciate it\n\nDon't ask me how this happened I don't even know myself-\n\nWatch unhinged slime live on ➡️➡️➡️ https://twitch.tv/sneeziu\n\nCheck out my twitter for live notifications as well!\nhttps://twitter.com/sneeziu1\n\nPlease check out my editor, they are awesome!!\nhttps://twitter.com/pooblas\n\n#vtuber\n#sneeziu\n#asmr",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GOOeaPPgC6g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GOOeaPPgC6g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GOOeaPPgC6g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/GOOeaPPgC6g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/GOOeaPPgC6g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 34,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "GOOeaPPgC6g"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "GOOeaPPgC6g",
+        "videoPublishedAt": "2024-03-06T23:30:06Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "siWXQ8Pt33xuU3Ydwy-XIiWm2qw",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLkdiTTlRXzlCRHRr",
+      "snippet": {
+        "publishedAt": "2024-03-06T19:00:10Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "WHEN YOU FINALLY TAKE YOUR MEDS #shorts",
+        "description": "Don't forget to take your meds\n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GbM9Q_9BDtk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GbM9Q_9BDtk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GbM9Q_9BDtk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/GbM9Q_9BDtk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/GbM9Q_9BDtk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 35,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "GbM9Q_9BDtk"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "GbM9Q_9BDtk",
+        "videoPublishedAt": "2024-03-06T19:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "wqMg7MM4N8o1PNuaTajfMMiOOYY",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLngwSnBYSmd0VDRN",
+      "snippet": {
+        "publishedAt": "2024-03-04T19:00:35Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "THE BETRAYAL #shorts",
+        "description": "Honestly a skill issue \n\nSubscribe! ➤ http://tinyurl.com/sneeziu\nTwitch ➤ https://www.twitch.tv/sneeziu\nTwitter ➤ https://twitter.com/sneeziu1\n\nIf you enjoy content like this, and would like to see more! Please consider hitting the like button and dropping a sub! It really helps out a lot! ♥\n\n\n#vtuber #twitch #valorant",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x0JpXJgtT4M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x0JpXJgtT4M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x0JpXJgtT4M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/x0JpXJgtT4M/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/x0JpXJgtT4M/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 36,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "x0JpXJgtT4M"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "x0JpXJgtT4M",
+        "videoPublishedAt": "2024-03-04T19:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "PCd6zia0v2PUIlb_4Sa6EHM-s-I",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLkF6SEFXWnZ4cmg0",
+      "snippet": {
+        "publishedAt": "2024-03-02T23:30:04Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "I MADE ONLYSLIMES?",
+        "description": "THANK YOU SO MUCH FOR CHECKING OUT MY CHANNEL!! If you could like this video I would really appreciate it\n\nLobotomized slime fr fr\n\nWatch unhinged slime live on ➡️➡️➡️ https://twitch.tv/sneeziu\n\nCheck out my twitter for live notifications as well!\nhttps://twitter.com/sneeziu1\n\nPlease check out my editor, they are awesome!!\nhttps://twitter.com/BrainiEpic\n\n#vtuber\n#sneeziu\n#onlyslimes",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AzHAWZvxrh4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AzHAWZvxrh4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AzHAWZvxrh4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/AzHAWZvxrh4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/AzHAWZvxrh4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 37,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "AzHAWZvxrh4"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "AzHAWZvxrh4",
+        "videoPublishedAt": "2024-03-02T23:30:04Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "2G1uK0MRG0rXpqLZnIbp9iTVKnE",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLk10TU0tWnE0d2VB",
+      "snippet": {
+        "publishedAt": "2024-02-04T00:30:21Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "SLIMES TRUE DESIRE",
+        "description": "THANK YOU SO MUCH FOR CHECKING OUT MY CHANNEL!! If you could like this video I would really appreciate it\n\nLeast sussy thing said by a vtuber... Ever.. \n\nWatch unhinged slime live on ➡️➡️➡️ https://twitch.tv/sneeziu\n\nCheck out my twitter for live notifications as well!\nhttps://twitter.com/sneeziu1\n\n#vtuber\n#sneeziu\n#segsdlcplease",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MtMM-Zq4weA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MtMM-Zq4weA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MtMM-Zq4weA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MtMM-Zq4weA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MtMM-Zq4weA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 38,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "MtMM-Zq4weA"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "MtMM-Zq4weA",
+        "videoPublishedAt": "2024-02-04T00:30:21Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "MYcMZCjp5cPP437EC-VnlJ55eLw",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLlgxNW5IR1NfZUJV",
+      "snippet": {
+        "publishedAt": "2024-01-28T00:30:19Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "THEY FOUND OUT MY BIGGEST SECRET..",
+        "description": "THANK YOU SO MUCH FOR CHECKING OUT MY CHANNEL!! If you could like this video I would really appreciate it\n\nSlime vtuber!! Not a dog!! Get it right ;-;\n\nWatch unhinged slime live on ➡️➡️➡️ https://twitch.tv/sneeziu\n\nCheck out my twitter for live notifications as well!\nhttps://twitter.com/sneeziu1\n\n#vtuber\n#sneeziu\n#slimenotdog",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/X15nHGS_eBU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/X15nHGS_eBU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/X15nHGS_eBU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/X15nHGS_eBU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/X15nHGS_eBU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 39,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "X15nHGS_eBU"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "X15nHGS_eBU",
+        "videoPublishedAt": "2024-01-28T00:30:19Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Qam5Xidbyv4wZcx3QeQ0u-e8Oy4",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLjlrVzJ3aGJ3M0V3",
+      "snippet": {
+        "publishedAt": "2024-01-15T00:28:43Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "SLIME AFFIRMATIONS",
+        "description": "THANK YOU SO MUCH FOR CHECKING OUT MY CHANNEL!! If you could like this video I would really appreciate it\n\nSoft slime affirmations to get you through 2024!! Let me know in the comments if you'd like more 👀\n\nWatch unhinged slime live on ➡️➡️➡️ https://twitch.tv/sneeziu\n\nCheck out my twitter for live notifications as well!\nhttps://twitter.com/sneeziu1\n\n#vtuber\n#sneeziu\n#affirmations",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9kW2whbw3Ew/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9kW2whbw3Ew/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9kW2whbw3Ew/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9kW2whbw3Ew/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9kW2whbw3Ew/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 40,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "9kW2whbw3Ew"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "9kW2whbw3Ew",
+        "videoPublishedAt": "2024-01-15T00:28:43Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "9bQgzBOHpLUN5FUP2RDyCncBxsQ",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLktsblFLX0V5c3N3",
+      "snippet": {
+        "publishedAt": "2023-06-08T19:25:36Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "Sneeziu Live Stream",
+        "description": "Thank you so so much for checking out my channel!! 💜\nI'm live on twitch as well ▶ https://www.twitch.tv/sneeziu ◀\n\n▶ My social media ◀\nTiktok: https://www.tiktok.com/@sneeziu\nTwitter/X: https://twitter.com/sneeziu1\nDiscord: https://discord.gg/sneeziu\nThrone: https://throne.com/sneeziu\n\n▶ Support me ◀\nhttps://streamlabs.com/sneeziu/tip\nPlease make sure you take care of yourself first!!!\nI really appreciate the support! 💜\n(Donations are non-refundable)\n\n▶ Rules ◀\n💧 Be kind to each other\n💧 Respect me, the mods and fellow chatters\n💧 Keep conversations related to the stream\n💧 Follow YouTube TOS\n\n▶ Schedule ◀\n4PM CET (12am jst, 10am est, 7am pst) every Monday, Wednesday, Thursday, Saturday, Sunday\n\n#vtuber  #sneeziu #slime #vtuberen",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KlnQK_Eyssw/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KlnQK_Eyssw/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KlnQK_Eyssw/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KlnQK_Eyssw/sddefault_live.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/KlnQK_Eyssw/maxresdefault_live.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 41,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "KlnQK_Eyssw"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "KlnQK_Eyssw",
+        "videoPublishedAt": "2023-06-08T19:25:36Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8sh3IDn4Js2Y-rtdMgC6o5lg_Js",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLloyWkQ2OEZBSk9F",
+      "snippet": {
+        "publishedAt": "2023-03-24T18:00:22Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "THIS GAME ALMOST GOT ME BANNED",
+        "description": "Almost got banned.. (real)\nIf you liked the video pls subscrib \n\nWatch unhinged slime live on ❤️ ➡️➡️➡️ https://twitch.tv/sneeziu\n\nMy other socials:\nhttps://twitter.com/sneeziu1\nhttps://www.tiktok.com/@sneeziu\n\n#vtuber\n#sneeziu\n#debut",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Z2ZD68FAJOE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Z2ZD68FAJOE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Z2ZD68FAJOE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Z2ZD68FAJOE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Z2ZD68FAJOE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 42,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Z2ZD68FAJOE"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "Z2ZD68FAJOE",
+        "videoPublishedAt": "2023-03-24T18:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "wPhJhkTUisc44at2Ze2mQ6qnHXU",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLk9ONEJ2Zk1fZE1v",
+      "snippet": {
+        "publishedAt": "2023-01-31T22:00:10Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "SNEEZIU THE SLIME DEBUT",
+        "description": "That time a monkey got reincarnated as a slime.\nI redebuted as a slime!!!\nIf you liked the video pls subscrib \n\nWatch unhinged slime live on ❤️ ➡️➡️➡️ https://twitch.tv/sneeziu\n\nMy other socials:\nhttps://twitter.com/sneeziu1\nhttps://www.tiktok.com/@sneeziu\n\n#vtuber\n#sneeziu\n#debut",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ON4BvfM_dMo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ON4BvfM_dMo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ON4BvfM_dMo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ON4BvfM_dMo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ON4BvfM_dMo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 43,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ON4BvfM_dMo"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "ON4BvfM_dMo",
+        "videoPublishedAt": "2023-01-31T22:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "jeqvm-BEIbkRIfxqSTKc0oTd3k4",
+      "id": "VVVMaFQwN1BHc2dZSnlHSW1XYTE3eUZBLjhfWWt5ak5oOUhr",
+      "snippet": {
+        "publishedAt": "2022-09-23T17:00:11Z",
+        "channelId": "UCLhT07PGsgYJyGImWa17yFA",
+        "title": "THIS VTUBER IS INTO VORE",
+        "description": "Hello! Hope you enjoyed the video!!\n\nI stream on twitch come watch me be dum ❤️ ➡️➡️➡️ https://twitch.tv/sneeziu\n\nMy other socials:\nhttps://twitter.com/sneeziu1\nhttps://www.tiktok.com/@sneeziu\n\nCHECK OUT MY AMAZING EDITOR: https://twitter.com/pooblas\n\n#vtuber\n#sneeziu\n#bestmoments",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8_YkyjNh9Hk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8_YkyjNh9Hk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8_YkyjNh9Hk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8_YkyjNh9Hk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8_YkyjNh9Hk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sneeziu",
+        "playlistId": "UULhT07PGsgYJyGImWa17yFA",
+        "position": 44,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "8_YkyjNh9Hk"
+        },
+        "videoOwnerChannelTitle": "Sneeziu",
+        "videoOwnerChannelId": "UCLhT07PGsgYJyGImWa17yFA"
+      },
+      "contentDetails": {
+        "videoId": "8_YkyjNh9Hk",
+        "videoPublishedAt": "2022-09-23T17:00:11Z"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 45,
+    "resultsPerPage": 50
+  }
+}
