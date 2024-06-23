@@ -3,6 +3,7 @@ module github.com/4lch4/YouToob
 go 1.22.4
 
 require (
+	github.com/dylanmei/iso8601 v0.1.0
 	github.com/gin-gonic/gin v1.10.0
 	github.com/joho/godotenv v1.5.1
 	google.golang.org/api v0.185.0
